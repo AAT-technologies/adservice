@@ -9,14 +9,14 @@ pipeline {
           sh ''' sudo docker system prune -af
           '''
          
-         sh ''' cd app/adservice
-                   ls
-                   sudo docker --version
-                   sudo docker build -t delalixx/adservice .
-                   sudo docker push delalixx/adservice
-                   '''
-         sh ''' sudo docker system prune -af
-                  '''
+//          sh ''' cd app/adservice
+//                    ls
+//                    sudo docker --version
+//                    sudo docker build -t delalixx/adservice .
+//                    sudo docker push delalixx/adservice
+//                    '''
+//          sh ''' sudo docker system prune -af
+//                   '''
          
       }
     }
