@@ -47,7 +47,7 @@ spec:
               - all
           privileged: false
           readOnlyRootFilesystem: true
-        image: delalixx/adservice:latest
+        image: delalixx/adservice:v1
         ports:
         - containerPort: 9555
         env:
